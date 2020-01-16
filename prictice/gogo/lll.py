@@ -1,0 +1,2 @@
+def mj():
+    print("mj")

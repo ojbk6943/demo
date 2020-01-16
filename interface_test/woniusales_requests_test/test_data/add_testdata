@@ -1,0 +1,12 @@
+[
+  [
+    "customer/add",{"customername": "李磊", "customerphone": "13259287613",
+      "childsex": "男", "childdate": "2019-11-09","creditkids": "0","creditcloth":"0"},
+      "add-successful"
+  ],
+  [
+    "customer/add",{"customername":"芳芳","customerphone":"123432222222",
+    "childsex":"女","childdate":"2019-11-09","creditkids":"0","creditcloth":"0"},
+    "add-successful"
+  ]
+]

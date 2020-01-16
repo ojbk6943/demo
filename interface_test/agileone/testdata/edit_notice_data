@@ -1,0 +1,4 @@
+{
+    "edit_notice_url":"index.php/notice/edit",
+    "expect":"edit notice success"
+}

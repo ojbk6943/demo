@@ -1,0 +1,10 @@
+{
+"protocol":"http://",
+"host":"192.168.2.18:",
+"port":"8080",
+"program":"/WoniuSales/",
+"DB_HOST":"192.168.2.18",
+"DB_USERNAME":"root",
+"DB_PASSWORD":"123456",
+"DB_NAME":"woniusales"
+}

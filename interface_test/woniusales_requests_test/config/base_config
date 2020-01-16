@@ -1,0 +1,13 @@
+{
+    "BROWSER":"Firefox",
+    "URL":"http://192.168.2.102:8080/WoniuSales1.4/",
+    "DB_HOST":"192.168.2.102",
+    "DB_USERNAME":"root",
+    "DB_PASSWORD":"123456",
+    "protocol":"http://",
+    "DB_NAME":"woniusales",
+    "host":"192.168.2.102:",
+    "port":"8080",
+    "program":"/WoniuSales1.4/"
+}
+

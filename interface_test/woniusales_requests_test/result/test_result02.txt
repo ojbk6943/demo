@@ -1,0 +1,42 @@
+test_add (gui_test.unittest_demo.testcases.cacl_test.CaclTest) ... ok
+test_div_0 (gui_test.unittest_demo.testcases.cacl_test.CaclTest) ... ok
+test_div_1 (gui_test.unittest_demo.testcases.cacl_test.CaclTest) ... FAIL
+test_div_2 (gui_test.unittest_demo.testcases.cacl_test.CaclTest) ... ERROR
+test_mul (gui_test.unittest_demo.testcases.cacl_test.CaclTest) ... ok
+test_sub (gui_test.unittest_demo.testcases.cacl_test.CaclTest) ... FAIL
+test_dologin (gui_test.unittest_demo.testcases.login_test.LoginTest) ... ok
+
+======================================================================
+ERROR: test_div_2 (gui_test.unittest_demo.testcases.cacl_test.CaclTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\profile\lib\site-packages\parameterized\parameterized.py", line 518, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "D:\Users\untitled\gui_test\unittest_demo\testcases\cacl_test.py", line 33, in test_div
+    result = self.cacl.div(x,y)
+  File "D:\Users\untitled\gui_test\unittest_demo\common\cacl.py", line 17, in div
+    return x / y
+ZeroDivisionError: division by zero
+
+======================================================================
+FAIL: test_div_1 (gui_test.unittest_demo.testcases.cacl_test.CaclTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\profile\lib\site-packages\parameterized\parameterized.py", line 518, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "D:\Users\untitled\gui_test\unittest_demo\testcases\cacl_test.py", line 34, in test_div
+    self.assertEqual(expect, result)
+AssertionError: 1 != 10.0
+
+======================================================================
+FAIL: test_sub (gui_test.unittest_demo.testcases.cacl_test.CaclTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Users\untitled\gui_test\unittest_demo\testcases\cacl_test.py", line 25, in test_sub
+    self.assertEqual(10, result)
+AssertionError: 10 != -10
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+FAILED (failures=2, errors=1)

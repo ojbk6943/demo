@@ -1,0 +1,35 @@
+test_add (test_cacl_demo1.TestCaclDemo1) ... ok
+test_div (test_cacl_demo1.TestCaclDemo1) ... ERROR
+test_mul (test_cacl_demo1.TestCaclDemo1) ... ok
+test_sub (test_cacl_demo1.TestCaclDemo1) ... FAIL
+test_add1 (test_cacl_demo2.TestCaclDemo02) ... ok
+test_mul (test_cacl_demo2.TestCaclDemo02) ... FAIL
+
+======================================================================
+ERROR: test_div (test_cacl_demo1.TestCaclDemo1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\WNXA19\interfacetest\whitebox_test\test_cacl_demo1.py", line 54, in test_div
+    self.assertEqual(result, 3)
+UnboundLocalError: local variable 'result' referenced before assignment
+
+======================================================================
+FAIL: test_sub (test_cacl_demo1.TestCaclDemo1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\WNXA19\interfacetest\whitebox_test\test_cacl_demo1.py", line 36, in test_sub
+    self.assertEqual(result,5)
+AssertionError: 7 != 5
+
+======================================================================
+FAIL: test_mul (test_cacl_demo2.TestCaclDemo02)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PycharmProjects\WNXA19\interfacetest\whitebox_test\test_cacl_demo2.py", line 15, in test_mul
+    self.assertEqual(result,2000)
+AssertionError: 200 != 2000
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+FAILED (failures=2, errors=1)

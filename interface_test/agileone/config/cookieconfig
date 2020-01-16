@@ -1,0 +1,4 @@
+{
+    "login_url":"index.php/common/login",
+    "login_data":{"username":"admin","password":"admin","savelogin":false}
+}

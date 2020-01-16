@@ -1,0 +1,5 @@
+{
+    "query_knowledge_url":"index.php/knowledge/query",
+    "expect":"query knowledge success"
+}
+

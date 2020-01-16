@@ -1,0 +1,9 @@
+{
+    "platformName":"Android",
+    "platformVersion":"5.1.1",
+    "deviceName":"P30",
+    "udid":"127.0.0.1:21503",
+    "app":"D:\\apk\\xmjsq10.0.12.apk",
+    "appPackage":"com.miui.calculator",
+    "appActivity":"com.miui.calculator.cal.CalculatorActivity"
+}

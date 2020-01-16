@@ -1,0 +1,5 @@
+[
+    ["index.php/notice/add",{"headline":"hl1","content":"ct1","scope":"1","expireddate":"2020-02-04"},"add notice success"],
+    ["index.php/notice/add",{"headline":"","content":"ct1","scope":"1","expireddate":"2020-02-04"},"add notice fail"],
+    ["index.php/notice/add",{"headline":"hl3","content":"","scope":"1","expireddate":"2020-02-04"},"add notice fail"]
+]

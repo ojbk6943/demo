@@ -1,0 +1,4 @@
+{
+    "login_url":"user/login",
+    "login_data":{"username":"admin","password":"admin","verifycode":"0000"}
+}

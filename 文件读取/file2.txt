@@ -1,0 +1,18 @@
+name: Jack    ;salary:     12000    ; tax:10800
+name: Mike    ;salary:     12300    ; tax:11070
+name:  Luk    ;salary:     10030    ; tax: 9027
+name:  Tim    ;salary:      9000    ; tax: 8100
+name: John    ;salary:     12000    ; tax:10800
+name: Lisa    ;salary:     11000    ; tax: 9900
+name: Jack    ;salary:     12000    ; tax:10800
+name: Mike    ;salary:     12300    ; tax:11070
+name:  Luk    ;salary:     10030    ; tax: 9027
+name:  Tim    ;salary:      9000    ; tax: 8100
+name: John    ;salary:     12000    ; tax:10800
+name: Lisa    ;salary:     11000    ; tax: 9900
+ name    : Jack         ;salary    :12000
+ name    : Mike         ;salary    :12300
+ name    :  Luk         ;salary    :10030
+ name    :  Tim         ;salary    :9000
+ name    : John         ;salary    :12000
+ name    : Lisa         ;salary    :11000
